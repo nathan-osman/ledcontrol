@@ -20,7 +20,7 @@ An example is included below:
     l = list(e)
     
     # Grab the first device
-    d = e[0]
+    d = l[0]
     
     # Set the color to red
     d.color = (9, 0, 0,)
