@@ -9,7 +9,7 @@ class Enumerator(object):
     '''
     
     _path    = '/sys/module/usbled/drivers/usb:usbled'
-    _pattern = compile(r'\d+-\d+:\d+.\d+')
+    _pattern = compile(r'\d+-[\d.]+:\d+.\d+')
     
     def __init__(self):
         '''
